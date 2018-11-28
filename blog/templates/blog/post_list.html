@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Colms Blog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
 </head>
 <body>
     <h1><a href="/">Colms Blog</a></h1>
        <p>IT WORKS!!!!</p>
-    {% for post in post %}
+    {% for post in posts %}
         <p>published:{{post.published_date}}</p>
          <h2><a href="/">{{post.published_date}}</a></h2>
              <p>{{post.text|linebreaksbr}}</p>
