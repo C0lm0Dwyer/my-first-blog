@@ -40,4 +40,6 @@ h1, h2, h3, h4 {
     color: #000000;
 
     }
-.link:hover { color: #145aff; }
+.link:hover {
+    color: #145aff;
+     }
