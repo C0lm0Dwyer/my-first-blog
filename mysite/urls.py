@@ -19,6 +19,7 @@ from django.urls import path, include
 from django.contrib.auth import views
 from django.contrib.auth import logout
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^accounts/login/$', views.LoginView.as_view(), name='login'),

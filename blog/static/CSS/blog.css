@@ -43,3 +43,6 @@ h1, h2, h3, h4 {
 .link:hover {
     color: #145aff;
      }
+.comment {
+    margin: 20px 0px 20px 20px;
+}
